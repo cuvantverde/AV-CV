@@ -1,0 +1,198 @@
+html{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+	background-color: #387ADF;	
+	}
+	
+/* all pages */	
+
+.topnav {
+  overflow: hidden;
+	margin: 50px;
+}	
+
+.topnav a {
+  float: left;
+  color: #FBA834;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+h1{
+	font-size: 2rem;
+	color: white;
+	}
+
+h2{
+	color: white;
+	font-size: 1rem;
+}
+
+footer{
+	display: flex;
+	text-align: center;
+	margin-top: auto;
+	color: white;
+	}
+	
+	
+/* index */
+
+.varga{
+	color: #FBA834;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-basis: 200px;
+	gap: 10px;
+	margin: 50px;
+	
+}
+
+.text{
+	order: 1;
+	
+}
+
+
+.projectimg{
+	order: 2;
+	
+}
+
+.projectimg >img{
+   width: 700px;
+   height: auto; 
+	border-radius: 10px;
+}
+
+
+	/* cv page */
+	
+.summary{
+	background-color: #333A73;
+	justify-content: space-between;
+	padding: 10px;
+	opacity: 0.7;
+	position: static;
+	border-radius: 10px;
+	text-align: justify;
+	gap: 10px;
+	margin: 50px;
+	color: white;
+	border: 3px ;
+	padding: 5px;
+	font-size: 1rem;
+	}
+
+.summary > p{
+	padding: 3px;
+}
+
+.experience{
+	justify-content: space-between;
+	padding: 10px;
+	opacity: 0.7;
+	position: static;
+	border-radius: 10px;
+	text-align: justify;
+	gap: 10px;
+	margin: 50px;
+	color: white;
+	border: 3px ;
+	padding: 5px;
+	font-size: 1rem;
+
+}
+
+.experience > h2{
+	font-size: 2rem;
+}
+	
+/* Skills page */	
+
+.image-skills {
+	width: 400px;
+   height: auto; 
+	border-radius: 10px;
+}
+
+.container-skills{
+	display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+	margin: 50px;
+	color: white;
+}
+
+.container-skills h2{
+	font-size: 2rem;
+
+}
+
+/* Interests page */
+
+.container-interests{
+	display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+	margin: 50px;
+	color: white;
+}
+
+/* Project Page */
+
+.container-projects{
+	display: grid;
+   grid-template-coloumns: repeat(3, 1fr);
+   gap: 10px;
+	margin-left: 50px;
+	margin-right: 350px;
+	padding: 20px;
+	color: white;
+}
+/* Contact page */
+
+#contact{
+	position: relative;
+	left: 50px;
+	font-weight: bold;
+	color: white;
+	}	
+
+#contact a{
+	font-size: 20px;
+	}
+
+.contactme{
+	width: 300px;
+   height: auto; 
+	border-radius: 10px;
+
+}
+	
+#contact h1{
+	background-color: #FBA834;
+	border: 3px;
+	padding: 10px;
+	text-align: justify;
+	color: white;
+	}	
+	
+.container-contact{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	flex-basis: 200px;
+	gap: 10px;
+	margin: 100px;
+}
